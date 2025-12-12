@@ -10,6 +10,8 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Testing the push
+
 // Add services to the container.
 
 builder.Services.AddDbContext<AppDbContext>(option =>
